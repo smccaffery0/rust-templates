@@ -1,0 +1,13 @@
+[template]
+# Minimum cargo_generate version required
+cargo_generate_version = ">=0.19.0"
+
+# Subdirectories to use as a sub-templates
+sub_templates = ["bin", "lib"]
+
+
+[placeholders.project_description]
+type     = "string"
+prompt   = "Short project description"
+default  = ""
+
